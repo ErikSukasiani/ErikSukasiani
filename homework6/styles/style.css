@@ -1,0 +1,143 @@
+/* *{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main_div {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+
+ul {
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    width: 500px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn{
+    margin-left: auto;
+
+} */
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: darkgrey;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo_list {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.add_list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 475px;
+}
+
+
+
+.inp {
+    padding: 10px 20px 10px 10px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.468);
+    width: 400px;
+    border-radius: 2px;
+}
+
+.inp::placeholder{
+    color: #00000088;
+}
+
+.add_btn {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0, 53, 100, 0.835);
+    border: 1px solid   rgba(0, 53, 100, 0.355);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+
+
+}
+
+.list_container{
+
+    width: 475px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 430px;
+    background-color: #fff;
+   
+}
+
+ul.list_items {
+    margin: 0px;
+    padding: 0px;
+    /* list-style-type: none; */
+}
+
+.list {
+align-items: center;
+}
+
+
+.list_items li{
+    /* width: 475px; */
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.remove_btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.fa-trash-can {
+    position: relative;
+    padding: 12px;
+    border-radius: 2px;
+    background-color: rgba(0, 53, 100, 0.835);
+    color: white;
+    font-size: 20px;
+
+}
+.list {
+    padding: 10px;
+}
+
+.li-active {
+background-color: rgba(211, 211, 211, 0.443);
+border-radius: 5px;
+};  
